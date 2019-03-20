@@ -3,6 +3,11 @@ import { View, Modal } from 'react-native'
 import DebugConfig from '../../App/Config/DebugConfig'
 import RoundedButton from '../../App/Components/RoundedButton'
 import PresentationScreen from './PresentationScreen'
+import styled from 'styled-components'
+
+const Text = styled.Text`
+  color: ${props => props.theme.colors.facebook};
+`
 
 export default class DevscreensButton extends React.Component {
   constructor (props) {
@@ -20,6 +25,7 @@ export default class DevscreensButton extends React.Component {
     if (DebugConfig.showDevScreens) {
       return (
         <View>
+          <Text>HAHA</Text>
           <RoundedButton onPress={this.toggleModal}>
             Open DevScreens
           </RoundedButton>

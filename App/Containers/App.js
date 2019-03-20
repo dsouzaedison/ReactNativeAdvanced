@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 import RootContainer from './RootContainer'
 import createStore from '../Redux'
 
+console.disableYellowBox = true
 // create our store
 const store = createStore()
 
@@ -21,7 +22,7 @@ class App extends Component {
   render () {
     return (
       <Provider store={store}>
-        <RootContainer />
+        <RootContainer/>
       </Provider>
     )
   }

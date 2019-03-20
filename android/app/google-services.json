@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "33170617467",
+    "firebase_url": "https://reactnativeignite.firebaseio.com",
+    "project_id": "reactnativeignite",
+    "storage_bucket": "reactnativeignite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33170617467:android:dd5dba2002709998",
+        "android_client_info": {
+          "package_name": "com.reactnativeignite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33170617467-c1lncpqpukepd0b839j44rcrn164uu2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAltbA8lWGiWNWL7wkUFdmG0HfuP-X-w0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
