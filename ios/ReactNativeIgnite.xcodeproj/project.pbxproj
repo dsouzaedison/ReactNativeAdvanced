@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00549C6F4E214154A99D80F4 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DAD5A76E5D458B810E8978 /* AntDesign.ttf */; };
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
@@ -13,7 +14,10 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* ReactNativeIgniteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeIgniteTests.m */; };
+		078ED23910FA4D8C971B75EB /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 449F1A6248FB48A2BA23040F /* libRNFirebase.a */; };
 		0A87E09B1F03484191358B69 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DC5889434C44B379B07C0B4 /* Entypo.ttf */; };
+		0F04A7B62244A2880027A635 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F04A7B52244A2880027A635 /* GoogleService-Info.plist */; };
+		0F04A7B72244A2880027A635 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F04A7B52244A2880027A635 /* GoogleService-Info.plist */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -25,6 +29,7 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1B64E1132A9C40A08260D022 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD9945A3AFE4D5186A8C8FA /* libRNGestureHandler.a */; };
+		1C2842C4793F53DB52261E68 /* libPods-ReactNativeIgnite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F735CBD5C2A268A622BE8BBE /* libPods-ReactNativeIgnite.a */; };
 		25986E7CC00D4A70ADFE6449 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A13D33203A744FB856A5217 /* Zocial.ttf */; };
 		2B3C6385D09D490A8CC8D8DD /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1830390B86894D778C6416E0 /* Ionicons.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -58,7 +63,6 @@
 		D03EDFA9C6F346FAB261A6AC /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57AB6A1FBE344027ADDD18EF /* EvilIcons.ttf */; };
 		D3F787C493094570AF5F995E /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE169F8B63364CB08B5A88E2 /* libRNVectorIcons-tvOS.a */; };
 		F528412285524F22BE5E5EF7 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87B4C6C75BFF4DDB887FA6A1 /* Octicons.ttf */; };
-		078ED23910FA4D8C971B75EB /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 449F1A6248FB48A2BA23040F /* libRNFirebase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = ReactNativeIgnite;
+		};
+		0F04A7AD2244A1DE0027A635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974530C357A2424A937847E4 /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
 		};
 		0F4D2877223BC60700BE5940 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -389,7 +400,10 @@
 		00E356EE1AD99517003FC87E /* ReactNativeIgniteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeIgniteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNativeIgniteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeIgniteTests.m; sourceTree = "<group>"; };
+		02A35D7CB9E6E95C6526D05D /* Pods-ReactNativeIgnite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeIgnite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeIgnite/Pods-ReactNativeIgnite.debug.xcconfig"; sourceTree = "<group>"; };
 		0A13D33203A744FB856A5217 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		0F04A7B52244A2880027A635 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F04A8472244A7F00027A635 /* ReactNativeIgnite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ReactNativeIgnite.entitlements; path = ReactNativeIgnite/ReactNativeIgnite.entitlements; sourceTree = "<group>"; };
 		10DCE04CF51844D6A690A4CF /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../node_modules/react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
@@ -407,8 +421,10 @@
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D93EB17D3A24B13A62D8BDA /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		41D6E26262AF4C898E1301FD /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
+		449F1A6248FB48A2BA23040F /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		470828AC362A498190826CB9 /* libRNI18n-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNI18n-tvOS.a"; sourceTree = "<group>"; };
 		4BD4E01FBF634E8B806854D6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		4CF0B214D1690B26CD925F89 /* Pods-ReactNativeIgnite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeIgnite.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeIgnite/Pods-ReactNativeIgnite.release.xcconfig"; sourceTree = "<group>"; };
 		57AB6A1FBE344027ADDD18EF /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6504C100FF7E4CDB8F81A53A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
@@ -419,6 +435,7 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		87B4C6C75BFF4DDB887FA6A1 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		8DC5889434C44B379B07C0B4 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		974530C357A2424A937847E4 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		9AD9945A3AFE4D5186A8C8FA /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
 		A2BEA5876B7D48B5B4E9B556 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
 		A499FC09480141A3856AF49F /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
@@ -431,8 +448,7 @@
 		E83042A1FAC84D5D8A3B2001 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; };
 		E9DAD5A76E5D458B810E8978 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		EE169F8B63364CB08B5A88E2 /* libRNVectorIcons-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNVectorIcons-tvOS.a"; sourceTree = "<group>"; };
-		974530C357A2424A937847E4 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		449F1A6248FB48A2BA23040F /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F735CBD5C2A268A622BE8BBE /* libPods-ReactNativeIgnite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeIgnite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,6 +481,7 @@
 				6E1236F1DC7848C983A1B6D1 /* libRNI18n.a in Frameworks */,
 				36294F8BB400450087BB9764 /* libRNDeviceInfo.a in Frameworks */,
 				078ED23910FA4D8C971B75EB /* libRNFirebase.a in Frameworks */,
+				1C2842C4793F53DB52261E68 /* libPods-ReactNativeIgnite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +572,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0F04A7842244A1DE0027A635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F04A7AE2244A1DE0027A635 /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0F4D2848223BC60200BE5940 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -564,6 +589,7 @@
 				A2BEA5876B7D48B5B4E9B556 /* libRNDeviceInfo.a */,
 				EE169F8B63364CB08B5A88E2 /* libRNVectorIcons-tvOS.a */,
 				470828AC362A498190826CB9 /* libRNI18n-tvOS.a */,
+				449F1A6248FB48A2BA23040F /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -625,6 +651,8 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeIgnite */ = {
 			isa = PBXGroup;
 			children = (
+				0F04A8472244A7F00027A635 /* ReactNativeIgnite.entitlements */,
+				0F04A7B52244A2880027A635 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -663,8 +691,18 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				F735CBD5C2A268A622BE8BBE /* libPods-ReactNativeIgnite.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4906E396D0D88F4DF5F6A29C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A35D7CB9E6E95C6526D05D /* Pods-ReactNativeIgnite.debug.xcconfig */,
+				4CF0B214D1690B26CD925F89 /* Pods-ReactNativeIgnite.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -750,6 +788,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				71B2C70C06D04A2988455871 /* Resources */,
 				0F4D2848223BC60200BE5940 /* Recovered References */,
+				4906E396D0D88F4DF5F6A29C /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -801,6 +840,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeIgnite" */;
 			buildPhases = (
+				48C6893BF370A4D78938B2C3 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -868,6 +908,14 @@
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = V85DE97HGA;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -945,6 +993,10 @@
 					ProjectRef = 10DCE04CF51844D6A690A4CF /* RNDeviceInfo.xcodeproj */;
 				},
 				{
+					ProductGroup = 0F04A7842244A1DE0027A635 /* Products */;
+					ProjectRef = 974530C357A2424A937847E4 /* RNFirebase.xcodeproj */;
+				},
+				{
 					ProductGroup = 0F4D2874223BC60700BE5940 /* Products */;
 					ProjectRef = 6BF5E47EE41847CD860BD313 /* RNGestureHandler.xcodeproj */;
 				},
@@ -1001,6 +1053,13 @@
 			fileType = archive.ar;
 			path = libRCTVibration.a;
 			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F04A7AE2244A1DE0027A635 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = 0F04A7AD2244A1DE0027A635 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0F4D2878223BC60700BE5940 /* libRNDeviceInfo.a */ = {
@@ -1276,6 +1335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F04A7B72244A2880027A635 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1294,6 +1354,7 @@
 				93A7DB59CF6F4BA4B062BB5F /* FontAwesome5_Regular.ttf in Resources */,
 				5B8F6CDFB13E4A9BA03BBE3C /* FontAwesome5_Solid.ttf in Resources */,
 				714BBA42E1C64BCDA935A407 /* Foundation.ttf in Resources */,
+				0F04A7B62244A2880027A635 /* GoogleService-Info.plist in Resources */,
 				2B3C6385D09D490A8CC8D8DD /* Ionicons.ttf in Resources */,
 				650CEFB2AD284391BCBDF14D /* MaterialCommunityIcons.ttf in Resources */,
 				865CBA894AE74809B10CCEF5 /* MaterialIcons.ttf in Resources */,
@@ -1348,6 +1409,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		48C6893BF370A4D78938B2C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeIgnite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1493,6 +1576,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A35D7CB9E6E95C6526D05D /* Pods-ReactNativeIgnite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1524,6 +1608,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF0B214D1690B26CD925F89 /* Pods-ReactNativeIgnite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
